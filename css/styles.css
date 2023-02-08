@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #424242;
+    width: 100vw;
+    
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    height: 15rem;
+    background: url(../imgs/header-background.png);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+h1 {
+    position: absolute;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    top: 4rem;
+    left: 5rem;
+    color: #FFD600;
+    line-height: 3rem;
+    font-family: 'Ropa Sans', sans-serif;
+} 
+
+h2 {
+    font-size: 1.875rem;
+    letter-spacing: 0.4rem;
+    color: #FFD600;
+    padding: 1rem 0rem 1rem 1rem;
+    background-color: #535556;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.details-card h2 {
+    background-color: #748687;
+}
+
+h3 {
+    padding-left: 1rem;
+    font-size: 1.875rem;
+    
+
+}
+
+
+.chars-card, .details-card {
+    background-color: #C4C4C4;
+    margin: 5rem;
+    border-radius: 15px 15px 0px 0px;
+    width: 26rem;
+    height:36rem;
+}
+
+.details-card {
+    background-color: #8E8E8E;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 8rem;
+}
+.details-card p {
+    color: black;
+    font-size: 18px;
+    margin: 0.3rem;
+}
+
+.details-card__wrapper h3 {
+    color: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem; 
+}
+
+.details-card__wrapper{
+    background-color: #C4C4C4;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    height: 40%;
+}
+
+.details-card__worldwrapper p {
+    color: white;
+}
+
+.chars-card__wrapper{
+    background: linear-gradient(
+    to top,
+    #E1DEDE 0%,
+    #E1DEDE 10%,
+    #8E8E8E 10%,
+    #8E8E8E 20%,
+    #E1DEDE 20%,
+    #E1DEDE 30%,
+    #8E8E8E 30%,
+    #8E8E8E 40%,
+    #E1DEDE 40%,
+    #E1DEDE 50%,
+    #8E8E8E 50%,
+    #8E8E8E 60%,
+    #E1DEDE 60%,
+    #E1DEDE 70%,
+    #8E8E8E 70%,
+    #8E8E8E 80%,
+    #E1DEDE 80%,
+    #E1DEDE 90%,
+    #8E8E8E 90%,
+    #8E8E8E 100%
+  );
+}
+
+.chars-card__wrapper p {
+    padding: 0.5rem;
+    color: #535556;
+}
+
+.chars-card__wrapper p:hover {
+background-color: #444444;
+}
+
+span {
+    color: black;
+}
